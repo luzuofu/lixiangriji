@@ -1,0 +1,104 @@
+{
+  "groups": [
+    {
+      "name": "audience",
+      "type": "work.demo.share.model.Audience",
+      "sourceType": "work.demo.share.model.Audience"
+    },
+    {
+      "name": "oss",
+      "type": "work.demo.share.model.OSSMessage",
+      "sourceType": "work.demo.share.model.OSSMessage"
+    },
+    {
+      "name": "swagger",
+      "type": "work.demo.share.config.SwaggerConfig",
+      "sourceType": "work.demo.share.config.SwaggerConfig"
+    },
+    {
+      "name": "wx",
+      "type": "work.demo.share.model.WXMessage",
+      "sourceType": "work.demo.share.model.WXMessage"
+    }
+  ],
+  "properties": [
+    {
+      "name": "audience.base64-secret",
+      "type": "java.lang.String",
+      "sourceType": "work.demo.share.model.Audience"
+    },
+    {
+      "name": "audience.client-id",
+      "type": "java.lang.String",
+      "sourceType": "work.demo.share.model.Audience"
+    },
+    {
+      "name": "audience.expires-second",
+      "type": "java.lang.Integer",
+      "sourceType": "work.demo.share.model.Audience",
+      "defaultValue": 0
+    },
+    {
+      "name": "audience.name",
+      "type": "java.lang.String",
+      "sourceType": "work.demo.share.model.Audience"
+    },
+    {
+      "name": "oss.oss-id",
+      "type": "java.lang.String",
+      "sourceType": "work.demo.share.model.OSSMessage"
+    },
+    {
+      "name": "oss.oss-secret",
+      "type": "java.lang.String",
+      "sourceType": "work.demo.share.model.OSSMessage"
+    },
+    {
+      "name": "swagger.base-package",
+      "type": "java.lang.String",
+      "description": "API接口包路径",
+      "sourceType": "work.demo.share.config.SwaggerConfig"
+    },
+    {
+      "name": "swagger.contact",
+      "type": "springfox.documentation.service.Contact",
+      "description": "联系人",
+      "sourceType": "work.demo.share.config.SwaggerConfig"
+    },
+    {
+      "name": "swagger.description",
+      "type": "java.lang.String",
+      "description": "API描述",
+      "sourceType": "work.demo.share.config.SwaggerConfig"
+    },
+    {
+      "name": "swagger.terms-of-service-url",
+      "type": "java.lang.String",
+      "description": "服务条款地址",
+      "sourceType": "work.demo.share.config.SwaggerConfig"
+    },
+    {
+      "name": "swagger.title",
+      "type": "java.lang.String",
+      "description": "API页面标题",
+      "sourceType": "work.demo.share.config.SwaggerConfig"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "description": "版本号",
+      "sourceType": "work.demo.share.config.SwaggerConfig"
+    },
+    {
+      "name": "wx.wx-id",
+      "type": "java.lang.String",
+      "sourceType": "work.demo.share.model.WXMessage"
+    },
+    {
+      "name": "wx.wx-secret",
+      "type": "java.lang.String",
+      "sourceType": "work.demo.share.model.WXMessage"
+    }
+  ],
+  "hints": []
+}
